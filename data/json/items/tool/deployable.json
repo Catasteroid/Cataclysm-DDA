@@ -331,5 +331,165 @@
     "symbol": "T",
     "color": "red",
     "flags": [ "DURABLE_MELEE" ]
+  },
+   {
+    "id": "folded_m2tripod",
+    "type": "TOOL",
+    "name": { "str": "folded M2 browning tripod"},
+    "description": "This is an M2 browning HMG mounted on a tripod folded into travel configuration.",
+    "weight": "58000g",
+    "volume": "53270ml",
+    "price": 35000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "I",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "tripod_m2",
+      "unfold_msg": "You unfold the tripod and mount the weapon into firing configuration.",
+      "moves": 750
+    }
+  },
+  {
+    "id": "folded_m249tripod",
+    "type": "TOOL",
+    "name": { "str": "folded M249 LMG tripod"},
+    "description": "This is a M249 LMG mounted on a tripod folded into travel configuration.",
+    "weight": "16000g",
+    "volume": "46110ml",
+    "price": 35000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "I",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "tripod_m249",
+      "unfold_msg": "You unfold the tripod and mount the weapon into firing configuration.",
+      "moves": 750
+    }
+  },
+  {
+    "id": "folded_m60tripod",
+    "type": "TOOL",
+    "name": { "str": "folded M60 MMG tripod"},
+    "description": "This is an M60 MMG mounted on a tripod folded into travel configuration.",
+    "weight": "19000g",
+    "volume": "46400ml",
+    "price": 35000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "I",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "tripod_m60",
+      "unfold_msg": "You unfold the tripod and mount the weapon into firing configuration.",
+      "moves": 750
+    }
+  },
+  {
+    "id": "folded_m240tripod",
+    "type": "TOOL",
+    "name": { "str": "folded M240 MMG tripod"},
+    "description": "This is an M240 MMG mounted on a tripod folded into travel configuration.",
+    "weight": "21000g",
+    "volume": "47280ml",
+    "price": 35000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "I",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "tripod_m240",
+      "unfold_msg": "You unfold the tripod and mount the weapon into firing configuration.",
+      "moves": 750
+    }
+  },
+  {
+    "id": "folded_rm298tripod",
+    "type": "TOOL",
+    "name": { "str": "folded RM298 HMG tripod"},
+    "description": "This is an RM298 HMG mounted on a tripod folded into travel configuration.",
+    "weight": "29800g",
+    "volume": "42100ml",
+    "price": 35000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "I",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "tripod_rm298",
+      "unfold_msg": "You unfold the tripod and mount the weapon into firing configuration.",
+      "moves": 750
+    }
+  },
+  {
+    "id": "folded_rm614tripod",
+    "type": "TOOL",
+    "name": { "str": "folded RM614 LMG tripod"},
+    "description": "This is an RM614 LMG mounted on a tripod folded into travel configuration.",
+    "weight": "9900g",
+    "volume": "34350ml",
+    "price": 35000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "I",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "tripod_rm614",
+      "unfold_msg": "You unfold the tripod and mount the weapon into firing configuration.",
+      "moves": 750
+    }
+  },
+  {
+    "id": "folded_mk19tripod",
+    "type": "TOOL",
+    "name": { "str": "folded mk19 launcher tripod"},
+    "description": "This is a mk19 automatic grenade launcher mounted on a tripod folded into travel configuration.",
+    "weight": "55200g",
+    "volume": "86180ml",
+    "price": 35000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "I",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "tripod_mk19",
+      "unfold_msg": "You unfold the tripod and mount the weapon into firing configuration.",
+      "moves": 750
+    }
+  },
+  {
+    "id": "folded_towlauncher",
+    "type": "TOOL",
+    "name": { "str": "folded TOW ATGM launcher mount"},
+    "description": "This is a TOW ATGM launcher mounted on a tripod folded into travel configuration.",
+    "weight": "113000g",
+    "volume": "69250ml",
+    "price": 35000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "I",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "tripod_towlauncher",
+      "unfold_msg": "You unfold the tripod and mount the weapon into firing configuration.",
+      "moves": 1000
+    }
   }
 ]

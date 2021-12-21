@@ -12,5 +12,40 @@
     "volume": "2500 ml",
     "price": 5500,
     "price_postapoc": 2500
+  },
+  {
+    "id" : "tripod_gun_heavy",
+	"type":"GENERIC",
+    "name": { "str": "M3 heavy weapon tripod" },
+    "description" : "A hefty folding steel tripod with adjustable legs made to serve as a mount for a heavy machine gun, or another similar crew-served weapon that is too large to be usefully carried or operated by hand.  This particular tripod is an M3 model which you could expect to find a .50 calibre M2 machine gun or a Mark 19 automatic grenade launcher mounted on.",
+    "color" : "light_gray",
+    "symbol" : "Y",
+    "material" : [ "steel" ],
+	"category" : "veh_parts",
+	"weight" : "20000 g",
+    "volume" : "44250 ml",
+	"longest_side": "1230 mm",
+    "price" : 5000,
+	"price_postapoc": 2500
+  },
+  {
+    "id" : "tripod_gun_light",
+    "type":"GENERIC",
+	"copy-from": "tripod_gun_heavy",
+	"name": { "str": "M122 medium weapon tripod" },
+	"description" : "A folding steel tripod with adjustable legs made to serve as a mount a medium or light machine gun or another similar crew-served weapon that could have it's capabilities extended using the stable mounting and more precise fire control afforded by a tripod like this one.  This particular tripod is an M122 model which is essentially just a refurbishment of the M2 tripods that served during the second world war..",
+	"weight": "8500 g",
+	"volume": "35500 ml",
+	"longest_side": "650 mm"
+  },
+  {
+    "id" : "tripod_gun_modern",
+    "type":"GENERIC",
+	"copy-from": "tripod_gun_light",
+	"name": { "str": "M192 lightweight weapon tripod" },
+	"description" : "A folding steel tripod with adjustable made to mount a medium or light machine gun or another similar crew-served weapon that could have it's capabilities extended using the stable mounting and more precise fire control afforded by a tripod like this one. This tripod happens to be an example of the M192 Lightweight Ground Mount Tripod that was supposed to have served to replace the older, heavier, and more bulky M122/M2 model tripods pre-cataclysm.",
+	"weight": "5300 g",
+	"volume": "31600 ml",
+	"longest_side": "480 mm"
   }
 ]

@@ -1,0 +1,163 @@
+[
+  {
+    "type": "vehicle_group",
+  "id": "tripod_thirty_cal",
+    "vehicles": [ [ "tripod_m240", 40 ], [ "tripod_m60", 60 ] ]
+  },
+  {
+    "id": "emplacement_308_casings",
+    "type": "item_group",
+    "items": [ { "item": "308_casing", "charges": [ 1, 5 ] }, { "item": "ammolink308", "charges": [ 1, 5 ] } ]
+  },
+  {
+    "id": "emplacement_223_casings",
+    "type": "item_group",
+    "items": [ { "item": "223_casing", "charges": [ 1, 8 ] }, { "item": "ammolink223", "charges": [ 1, 8 ] } ]
+  },
+  {
+    "id": "emplacement_50_casings",
+    "type": "item_group",
+    "items": [ { "item": "50_casing", "charges": [ 1, 5 ] }, { "item": "ammolink50", "charges": [ 1, 5 ] } ]
+  },
+  {
+    "id": "emplacement_40mm_casings",
+    "type": "item_group",
+    "items": [ { "item": "40x53mm_m169_casing", "charges": [ 1, 4 ] }, { "item": "ammolink40mm", "charges": [ 1, 4 ] } ]
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "tripod_emplacement_medium_3x3",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "place_furniture": [
+        { "furn": "f_sandbag_half", "x": [ 0, 2 ], "y": 2 }
+      ],
+      "place_loot": [
+        { "group": "emplacement_308_casings", "x": [ 0, 2 ], "y": [ 0, 1 ], "chance": 100, "repeat": [ 3, 12 ] }
+      ],
+      "place_vehicles": [ { "vehicle": "tripod_thirty_cal", "chance": 90, "x": 1, "y": 1, "status": -1 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "tripod_emplacement_medium_3x3",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "place_furniture": [
+        { "furn": "f_sandbag_half", "x": [ 0, 2 ], "y": 2 }
+      ],
+	  "place_loot": [
+        { "group": "emplacement_223_casings", "x": [ 0, 2 ], "y": [ 0, 1 ], "chance": 100, "repeat": [ 3, 12 ] }
+      ],
+    "place_vehicles": [ { "vehicle": "tripod_m249", "chance": 90, "x": 1, "y": 1, "status": -1 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "tripod_emplacement_heavy_3x3",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "place_furniture": [
+        { "furn": "f_sandbag_half", "x": [ 0, 2 ], "y": 2 }
+      ],
+	  "place_loot": [
+        { "group": "emplacement_50_casings", "x": [ 0, 2 ], "y": [ 0, 1 ], "chance": 100, "repeat": [ 3, 12 ] }
+      ],
+    "place_vehicles": [ { "vehicle": "tripod_m2", "chance": 90, "x": 1, "y": 1, "status": -1 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "tripod_emplacement_heavy_3x3",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "place_furniture": [
+        { "furn": "f_sandbag_half", "x": [ 0, 2 ], "y": 2 }
+      ],
+	  "place_loot": [
+        { "group": "emplacement_40mm_casings", "x": [ 0, 2 ], "y": [ 0, 1 ], "chance": 100, "repeat": [ 2, 10 ] }
+      ],
+    "place_vehicles": [ { "vehicle": "tripod_mk19", "chance": 90, "x": 1, "y": 1, "status": -1 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "tripod_emplacement_medium_5x5",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "place_furniture": [
+        { "furn": "f_sandbag_half", "x": 1, "y": 0 },
+        { "furn": "f_sandbag_half", "x": 3, "y": 0 },
+        { "furn": "f_sandbag_half", "x": 0, "y": [ 0, 4 ] },
+        { "furn": "f_sandbag_half", "x": 4, "y": [ 0, 4 ] },
+        { "furn": "f_sandbag_half", "x": [ 0, 4 ], "y": 4 }
+      ],
+      "place_loot": [
+        { "group": "emplacement_308_casings", "x": [ 0, 2 ], "y": [ 0, 1 ], "chance": 100, "repeat": [ 3, 12 ] }
+      ],
+    "place_vehicles": [ { "vehicle": "tripod_thirty_cal", "chance": 90, "x": 2, "y": 2, "status": -1 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "tripod_emplacement_medium_5x5",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "place_furniture": [
+        { "furn": "f_sandbag_half", "x": 1, "y": 0 },
+        { "furn": "f_sandbag_half", "x": 3, "y": 0 },
+        { "furn": "f_sandbag_half", "x": 0, "y": [ 0, 4 ] },
+        { "furn": "f_sandbag_half", "x": 4, "y": [ 0, 4 ] },
+        { "furn": "f_sandbag_half", "x": [ 0, 4 ], "y": 4 }
+      ],
+     "place_loot": [
+        { "group": "emplacement_223_casings", "x": [ 0, 2 ], "y": [ 0, 1 ], "chance": 100, "repeat": [ 3, 12 ] }
+      ],
+    "place_vehicles": [ { "vehicle": "tripod_m249", "chance": 90, "x": 2, "y": 2, "status": -1 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "tripod_emplacement_heavy_5x5",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "place_furniture": [
+        { "furn": "f_sandbag_half", "x": 1, "y": 0 },
+        { "furn": "f_sandbag_half", "x": 3, "y": 0 },
+        { "furn": "f_sandbag_half", "x": 0, "y": [ 0, 4 ] },
+        { "furn": "f_sandbag_half", "x": 4, "y": [ 0, 4 ] },
+        { "furn": "f_sandbag_half", "x": [ 0, 4 ], "y": 4 }
+      ],
+      "place_loot": [
+        { "group": "emplacement_50_casings", "x": [ 0, 2 ], "y": [ 0, 1 ], "chance": 100, "repeat": [ 3, 12 ] }
+      ],
+    "place_vehicles": [ { "vehicle": "tripod_m2", "chance": 90, "x": 2, "y": 2, "status": -1 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "tripod_emplacement_heavy_5x5",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "place_furniture": [
+        { "furn": "f_sandbag_half", "x": 1, "y": 0 },
+        { "furn": "f_sandbag_half", "x": 3, "y": 0 },
+        { "furn": "f_sandbag_half", "x": 0, "y": [ 0, 4 ] },
+        { "furn": "f_sandbag_half", "x": 4, "y": [ 0, 4 ] },
+        { "furn": "f_sandbag_half", "x": [ 0, 4 ], "y": 4 }
+      ],
+      "place_loot": [
+        { "group": "emplacement_40mm_casings", "x": [ 0, 2 ], "y": [ 0, 1 ], "chance": 100, "repeat": [ 2, 10 ] }
+      ],
+      "place_vehicles": [ { "vehicle": "tripod_mk19", "chance": 90, "x": 2, "y": 2, "status": -1 } ]
+    }
+  }
+]

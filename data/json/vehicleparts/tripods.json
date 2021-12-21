@@ -1,0 +1,34 @@
+[
+  {
+    "id": "folding_tripod_heavy",
+    "type": "vehicle_part",
+	"copy-from": "turret_mount",
+    "name": { "str": "heavy weapon tripod"},
+    "item": "tripod_gun_heavy",
+    "location": "structure",
+    "symbol": "Y",
+    "durability": 200,
+    "description": "A folding metal framework designed to mount a machine gun or other heavy crew-served weapon, allow for careful traversal and elevation of the weapon, and fold up into a smaller package for transport.  Other vehicle components can be mounted on it but it's only intended to hold mounted weapons.  All frames and components of a vehicle must be foldable for the vehicle to be able to into a single package and picked up as a normal item.",
+    "folded_volume": "44250 ml",
+    "breaks_into": [ { "item": "pipe", "count": [ 0, 3 ] }, { "item": "steel_lump", "count": [ 0, 8 ] }, { "item": "steel_chunk", "count": [ 0, 14 ] }, { "item": "scrap", "count": [ 4, 32 ] } ],
+    "flags": [ "INITIAL_PART", "MOUNTABLE", "FOLDABLE", "TURRET_MOUNT" ]
+  },
+  {
+    "id": "folding_tripod_light",
+	"type": "vehicle_part",
+	"copy-from": "folding_tripod_heavy",
+	"name": { "str": "medium weapon tripod"},
+    "item": "tripod_gun_light",
+	"folded_volume": "35500 ml",
+	"breaks_into": [ { "item": "pipe", "count": [ 0, 3 ] }, { "item": "steel_lump", "count": [ 0, 7 ] }, { "item": "steel_chunk", "count": [ 0, 12 ] }, { "item": "scrap", "count": [ 4, 28 ] } ]
+  },
+  {
+    "id": "folding_tripod_modern",
+	"type": "vehicle_part",
+	"copy-from": "folding_tripod_light",
+	"name": { "str": "lightweight weapon tripod"},
+    "item": "tripod_gun_modern",
+	"folded_volume": "31600 ml",
+	"breaks_into": [ { "item": "pipe", "count": [ 0, 3 ] }, { "item": "steel_lump", "count": [ 0, 6 ] }, { "item": "steel_chunk", "count": [ 0, 11 ] }, { "item": "scrap", "count": [ 3, 24 ] } ]
+  }
+]

@@ -844,5 +844,20 @@
     "type": "vehicle_group",
     "id": "prison_vehicles",
     "vehicles": [ [ "policecar", 15 ], [ "policesuv", 15 ], [ "truck_swat", 5 ], [ "bus_prison", 25 ], [ "ambulance", 10 ] ]
+  },
+  {
+    "type": "vehicle_group",
+	"id": "tripod_heavy_weapons",
+	"vehicles": [ [ "tripod_towlauncher", 5 ], [ "tripod_m2", 70 ], [ "tripod_mk19", 25 ] ]
+  },
+  {
+    "type": "vehicle_group",
+	"id": "tripod_light_weapons",
+    "vehicles": [ [ "tripod_m240", 40 ], [ "tripod_m60", 80 ], [ "tripod_m249", 30 ], [ "tripod_rm298", 10 ], [ "tripod_rm614", 15 ] ]
+  },
+  {
+    "type": "vehicle_group",
+	"id": "tripod_light_weapons_mundane"
+	"vehicles": [ [ "tripod_m240", 40 ], [ "tripod_m60", 80 ], [ "tripod_m249", 30 ] ]
   }
 ]

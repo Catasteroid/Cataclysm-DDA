@@ -130,7 +130,9 @@
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 24 }, { "item": "steel_chunk", "count": 9 }, { "item": "steel_lump", "count": 3 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 3 ], [ "rifle", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 1 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 3 ], [ "rifle", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 1 ] ] } },
+	"folded_volume": "10610 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "m249_semi",
@@ -141,7 +143,9 @@
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 24 }, { "item": "steel_chunk", "count": 9 }, { "item": "steel_lump", "count": 3 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 3 ], [ "rifle", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 1 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 3 ], [ "rifle", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 1 ] ] } },
+	"folded_volume": "10610 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "mounted_bigun",
@@ -163,7 +167,9 @@
     "color": "green",
     "broken_color": "green",
     "breaks_into": [ { "item": "scrap", "count": 80 }, { "item": "steel_chunk", "count": 48 }, { "item": "steel_lump", "count": 18 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } },
+	"folded_volume": "9020 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "mounted_m134",
@@ -214,7 +220,9 @@
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 28 }, { "item": "steel_chunk", "count": 12 }, { "item": "steel_lump", "count": 7 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } },
+	"folded_volume": "11780 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "mounted_m60",
@@ -225,7 +233,9 @@
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 24 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } },
+	"folded_volume": "10900 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "mounted_m60_semi",
@@ -236,7 +246,9 @@
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 24 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } },
+	"folded_volume": "10900 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "mounted_mk19",
@@ -247,7 +259,9 @@
     "color": "green",
     "broken_color": "green",
     "breaks_into": [ { "item": "scrap", "count": 80 }, { "item": "steel_chunk", "count": 41 }, { "item": "steel_lump", "count": 17 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } },
+	"folded_volume": "41930 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "tow_launcher",
@@ -259,7 +273,9 @@
     "broken_color": "green",
     "durability": 800,
     "breaks_into": [ { "item": "scrap", "count": 32 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 5 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 3 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 3 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } },
+	"folded_volume": "25 L",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "mounted_rm298",
@@ -270,7 +286,9 @@
     "color": "white",
     "broken_color": "white",
     "breaks_into": [ { "item": "scrap", "count": 40 }, { "item": "steel_chunk", "count": 30 }, { "item": "steel_lump", "count": 13 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } },
+	"folded_volume": "10500 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "mounted_rm614",
@@ -281,7 +299,9 @@
     "color": "white",
     "broken_color": "white",
     "breaks_into": [ { "item": "scrap", "count": 11 }, { "item": "steel_chunk", "count": 6 }, { "item": "steel_lump", "count": 2 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } },
+	"folded_volume": "2750 ml",
+	"flags": [ "FOLDABLE" ]
   },
   {
     "id": "plasma_gun",

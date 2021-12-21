@@ -202,6 +202,8 @@
     "entries": [
       { "group": "mil_food", "prob": 1251 },
       { "group": "mil_armor", "prob": 575 },
+	  { "group": "tripod_weapons_medium", "prob": 1 },
+	  { "group": "tripod_weapons_rare", "prob": 1 },
       { "item": "m107a1", "prob": 1 },
       { "item": "bipod", "prob": 1 },
       { "item": "50bmg", "prob": 3 },
@@ -473,6 +475,9 @@
     "subtype": "distribution",
     "entries": [
       { "group": "mags_milspec", "prob": 40 },
+	  { "group": "tripod_weapons_medium", "prob": 10 },
+	  { "group": "tripod_weapons_heavy", "prob": 4 },
+	  { "group": "tripod_weapons_rare", "prob": 2 },
       { "item": "flamethrower", "prob": 20, "charges": [ 0, 3000 ] },
       { "item": "rm451_flamethrower", "prob": 10, "charges": [ 0, 2000 ] },
       { "item": "m249", "prob": 30, "charges": [ 0, 30 ] },
@@ -596,6 +601,7 @@
       { "group": "guns_launcher_milspec", "prob": 5 },
       { "group": "guns_launcher_rocket", "prob": 44 },
       { "group": "guns_rifle_milspec", "prob": 10 },
+	  { "group": "tripod_weapons", "prob": 1 },
       { "item": "human_flesh", "prob": 4, "count-min": 1, "count-max": 10 },
       { "item": "bone_human", "prob": 10, "count-min": 1, "count-max": 5 },
       { "item": "rag", "prob": 10, "count-min": 1, "count-max": 10, "custom-flags": [ "FILTHY" ] },
@@ -678,5 +684,48 @@
       { "item": "flight_helmet", "prob": 20, "ammo-item": "light_plus_battery_cell", "charges": [ 0, 150 ] },
       { "item": "mil_flight_suit", "prob": 20 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "tripod_weapons_medium",
+    "magazine": 0,
+    "subtype": "distribution",
+    "entries": [
+	  { "item": "folded_m240tripod", "prob": 30 },
+	  { "item": "folded_m60tripod", "prob": 50 },
+	  { "item": "folded_m249tripod", "prob": 20 }
+	]
+  },
+  {
+    "type": "item_group",
+    "id": "tripod_weapons_heavy",
+    "magazine": 0,
+    "subtype": "distribution",
+    "entries": [
+	  { "item": "folded_m2tripod", "prob": 80 },
+	  { "item": "folded_mk19tripod", "prob": 15 },
+	  { "item": "folded_towlauncher", "prob": 5 }
+	]
+  },
+  {
+    "type": "item_group",
+    "id": "tripod_weapons_rare",
+    "magazine": 0,
+    "subtype": "distribution",
+    "entries": [
+	  { "item": "folded_rm298tripod", "prob": 60 },
+	  { "item": "folded_rm614tripod", "prob": 40 }
+	]
+  },
+  {
+    "type": "item_group",
+    "id": "tripod_weapons",
+    "magazine": 0,
+    "subtype": "distribution",
+    "entries": [
+	  { "group": "tripod_weapons_medium", "prob": 80 },
+	  { "group": "tripod_weapons_heavy", "prob": 5 },
+	  { "group": "tripod_weapons_rare", "prob": 15 }
+	]
   }
 ]

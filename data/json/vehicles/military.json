@@ -736,5 +736,133 @@
       { "x": -1, "y": 0, "parts": [ "frame_wood", "wheel_mount_wood", "wheel_wood" ] },
       { "x": 1, "y": 0, "parts": [ "frame_wood", "wheel_mount_wood", "wheel_wood" ] }
     ]
+  },
+  {
+    "id": "tripod_mk19",
+    "type": "vehicle",
+    "name": "Mk19 Grenade Launcher Tripod",
+    "blueprint": [ "H" ],
+    "parts": [
+      { "x": 0, "y": 0, "part": "folding_tripod_heavy" },
+	  {
+        "x": 0,
+        "y": 0,
+        "ammo_types": [ "40x53mm_m430a1" ],
+        "part": "mounted_mk19",
+        "ammo": 60,
+        "ammo_qty": [ 1, 25 ]
+      }
+    ]
+  },
+  {
+    "id": "tripod_m2",
+    "type": "vehicle",
+    "name": "M2 Browning Tripod",
+    "blueprint": [ "H" ],
+    "parts": [
+      { "x": 0, "y": 0, "part": "folding_tripod_heavy" },
+	  {
+	    "x": 0,
+        "y": 0,
+        "part": "mounted_browning",
+        "ammo": 60,
+        "ammo_qty": [ 10, 100 ]
+      }
+    ]
+  },
+  {
+    "id": "tripod_m60",
+    "type": "vehicle",
+    "name": "M60 Tripod",
+    "blueprint": [ "H" ],
+    "parts": [
+      { "x": 0, "y": 0, "part": "folding_tripod_light" },
+	  {
+	    "x": 0,
+        "y": 0,
+        "ammo_types": [ "762_51" ],
+        "part": "mounted_m60",
+        "ammo": 60,
+        "ammo_qty": [ 10, 100 ]
+      }
+    ]
+  },
+  {
+    "id": "tripod_m240",
+    "type": "vehicle",
+    "name": "M240 Tripod",
+    "blueprint": [ "H" ],
+    "parts": [
+      { "x": 0, "y": 0, "part": "folding_tripod_light" },
+	  {
+	    "x": 0,
+        "y": 0,
+        "ammo_types": [ "762_51" ],
+        "part": "mounted_m240",
+        "ammo": 60,
+        "ammo_qty": [ 10, 100 ]
+      }
+    ]
+  },
+  {
+    "id": "tripod_m249",
+    "type": "vehicle",
+    "name": "M249 Tripod",
+    "blueprint": [ "H" ],
+    "parts": [
+      { "x": 0, "y": 0, "part": "folding_tripod_light" },
+	  {
+	    "x": 0,
+        "y": 0,
+        "ammo_types": [ "556" ],
+        "part": "m249",
+        "ammo": 60,
+        "ammo_qty": [ 10, 100 ]
+      }
+    ]
+  },
+  {
+    "id": "tripod_rm614",
+    "type": "vehicle",
+    "name": "RM614 Tripod",
+    "blueprint": [ "H" ],
+    "parts": [
+      { "x": 0, "y": 0, "part": "folding_tripod_modern" },
+	  {
+	    "x": 0,
+        "y": 0,
+        "ammo_types": [ "8mm_fmj" ],
+        "part": "mounted_rm614",
+        "ammo": 60,
+        "ammo_qty": [ 10, 50 ]
+      }
+    ]
+  },
+  {
+    "id": "tripod_rm298",
+    "type": "vehicle",
+    "name": "RM298 Tripod",
+    "blueprint": [ "H" ],
+    "parts": [
+      { "x": 0, "y": 0, "part": "folding_tripod_modern" },
+	  {
+	    "x": 0,
+        "y": 0,
+        "ammo_types": [ "8mm_fmj" ],
+        "part": "mounted_rm298",
+        "ammo": 60,
+        "ammo_qty": [ 10, 100 ]
+      }
+    ]
+  },
+  {
+    "id": "tripod_towlauncher",
+    "type": "vehicle",
+    "name": "ATGM Launcher Tripod",
+    "blueprint": [ "H" ],
+    "parts": [
+      { "x": 0, "y": 0, "part": "folding_tripod_heavy" },
+	  { "x": 0, "y": 0, "part": "tow_launcher", "ammo": 50 }
+    ]
   }
 ]
